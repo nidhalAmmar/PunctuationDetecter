@@ -1,8 +1,10 @@
 package com.punctuation.detecter.Service;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class PunctuationDetecterService {
 
 	public int getTotalPunctuationCount(String paraghraph) {
