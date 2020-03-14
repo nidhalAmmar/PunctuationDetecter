@@ -33,7 +33,7 @@ public class PunctuationDetecterControllerTest {
                 status().isOk()
         ).andExpect(
                 content().string(containsString(
-                        String.format("the total count of Punctuation marks in your paraghraph is  1")
+                        String.format(""+1)
                 ))
         );
 
